@@ -97,8 +97,8 @@
 					var mb;
 					if (fileSize) {
 						mb = fileSize / 1048576;
-						if (mb > 50) {
-							alert("文件大小不能>50M");
+						if (mb > 10) {
+							alert("文件大小不能>10M，会卡死你滴");
 							return;
 						}
 					}
